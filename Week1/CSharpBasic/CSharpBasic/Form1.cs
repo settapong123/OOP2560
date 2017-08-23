@@ -19,43 +19,43 @@ namespace CSharpBasic
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "bool";
-            textBox2.Text = sizeof(bool).ToString();
+            txt_type.Text = "bool";
+            txt_size.Text = sizeof(bool).ToString();
   
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "char";
-            textBox2.Text = sizeof(char).ToString();
-            textBox3.Text = (char.MinValue - '\0' ).ToString();
+            txt_type.Text = "char";
+            txt_size.Text = sizeof(char).ToString();
+            txt_min.Text = (char.MinValue - '\0' ).ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "unsigned int 16 bit";
-            textBox2.Text = sizeof(UInt16).ToString();
+            txt_type.Text = "unsigned int 16 bit";
+            txt_size.Text = sizeof(UInt16).ToString();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Sbyte";
-            textBox2.Text = sizeof(SByte).ToString();
+            txt_type.Text = "Sbyte";
+            txt_size.Text = sizeof(SByte).ToString();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Long";
-            textBox2.Text = sizeof(long).ToString();
+            txt_type.Text = "Long";
+            txt_size.Text = sizeof(long).ToString();
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "float";
-            textBox2.Text = sizeof(float).ToString();
-            textBox3.Text = float.MinValue.ToString();
-            textBox4.Text = float.MaxValue.ToString();
+            txt_type.Text = "float";
+            txt_size.Text = sizeof(float).ToString();
+            txt_min.Text = float.MinValue.ToString();
+            txt_max.Text = float.MaxValue.ToString();
 
         }
     }
